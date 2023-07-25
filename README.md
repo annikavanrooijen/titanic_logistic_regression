@@ -18,10 +18,15 @@ The objective of the competition is to use the provided training set to build a 
 **Evaluation:**
 Submissions are evaluated based on their predictive accuracy. The primary evaluation metric used for this competition is usually the percentage of correctly predicted passenger survival outcomes, often referred to as "accuracy." The higher the accuracy achieved by a participant's model on the test set, the better their solution performs.
 
-**Why it's Popular:**
-The Titanic Kaggle competition is popular for several reasons. Firstly, it offers an engaging and historically significant challenge, connecting participants to a tragic event that still resonates with people worldwide. Secondly, it serves as an entry-level competition for those new to data science and machine learning, allowing them to practice their skills on a well-structured problem with accessible datasets. Lastly, the competition's leaderboard and open sharing of code and solutions create a vibrant community of data enthusiasts, fostering collaboration and knowledge exchange.
+**EDA Summary of the Findings in the Test Data:**
+- 62.36% of the total number of passengers died (444 People)
+- biggest age group of passenger: between 18 and 35
+- there were more male passenger on the ship
+- Factors for survivial: 
+    - age: children 
+    - gender: woman had a higher chance of survivial in the first and second class
+    - passenger class: in the third class the survivial rate for women was about 50:50, most men died in the third class
+ 
+# SUBMISSION IN KAGGLE = 0,77033 Accuracy
+ 
 
-**Learning Opportunities:**
-Participating in the Titanic Kaggle competition provides valuable learning opportunities. Participants can gain hands-on experience in data preprocessing, feature engineering, and building predictive models using various machine learning algorithms. Moreover, understanding how to work with small datasets and addressing the challenges of missing data and categorical variables can significantly improve one's data science skills.
-
-In conclusion, the Titanic Kaggle competition is an exciting and historically intriguing challenge that allows participants to showcase their data science expertise, learn new skills, and be part of a vibrant community of data enthusiasts—all while paying homage to the lives lost in one of the world's most well-known maritime disasters.
